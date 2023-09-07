@@ -1,0 +1,12 @@
+100,1E5 0. 1e-5 1 1 5000
+100,1E6 0.5 1e-6 1 1 5000 # death
+100,1E5 0.5 1e-5 1 1 5000
+100,1E5,1E6 0,0 1e-5,1e-5 1 1 5000 # segments
+100,1E5,1E6 0,0 1e-5,2e-5 1 1 5000 # segments with different mutation rates
+100,1E5,1E6 0,0 5e-5,1e-5 1 1 5000 # segments with different mutation rates
+100,1E5,1E6 0.5,0.2 1e-5,2e-5 1 1 5000 # segments with different deaths and mutation rates
+100,1E5,1E6 0.5,0.2 1e-5,2e-5 0.6 1 5000 # and with fitness effect
+100,1E5,1E6 0.5,0.2 1e-5,2e-5 1.2 1 5000
+100,1E5,1E6 0.5,0.2 1e-5,2e-5 0.8 0.5 5000 # and with sampling
+100,1E5,1E6 0.5,0.2 1e-5,2e-5 1.2 0.2 5000
+100,1E5,1E6 0.5,0.2 1e-5,2e-5 0.7 0.8 20000

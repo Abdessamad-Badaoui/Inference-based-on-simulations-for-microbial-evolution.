@@ -6,11 +6,11 @@ The approaches typically used to characterize this generation of genetic diversi
 
 However, this model is overly simplistic, meaning it makes overly restrictive assumptions and cannot address open questions in microbial evolution. Notably, it lacks the ability to consider:
 
-    The complex ecology characterizing the natural environment where bacteria typically reside (e.g., within a complex microbiome and within a host with an immune system, rather than in a test tube.)
+- The complex ecology characterizing the natural environment where bacteria typically reside (e.g., within a complex microbiome and within a host with an immune system, rather than in a test tube.)
 
-    Potential antibiotic treatment
+- Potential antibiotic treatment
 
-    The potential effects of mutations on growth dynamics
+- The potential effects of mutations on growth dynamics
 
 To overcome the limitations of this historical model, we propose the use of simulations that incorporate these various extensions to the standard model. Inference of different parameters from experimental data can then be accomplished using approximate Bayesian computing (ABC) methods. In brief, these methods determine which simulation parameters bring the model closest to experimental data while considering constraints such as parsimony (not invoking the simulator more than necessary), convergence, and confidence intervals.
 

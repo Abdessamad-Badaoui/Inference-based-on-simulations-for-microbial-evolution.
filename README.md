@@ -12,7 +12,7 @@ However, this model is overly simplistic, meaning it makes overly restrictive as
 
 - The potential effects of mutations on growth dynamics
 
-To overcome the limitations of this historical model, we propose the use of simulations that incorporate these various extensions to the standard model. Inference of different parameters from experimental data can then be accomplished using approximate Bayesian computing (ABC) methods. In brief, these methods determine which simulation parameters bring the model closest to experimental data while considering constraints such as parsimony (not invoking the simulator more than necessary), convergence, and confidence intervals.
+To overcome the limitations of this historical model, we propose the use of simulations that incorporate these various extensions to the standard model. Inference of different parameters from experimental data can then be accomplished using approximate Bayesian Computation (ABC) methods. In brief, these methods determine which simulation parameters bring the model closest to experimental data while considering constraints such as parsimony (not invoking the simulator more than necessary), convergence, and confidence intervals.
 
 Therefore, a super-fast simulator has been developed (three orders of magnitude faster than the state of the art), capable of overcoming the limitations of the historical model detailed above and simulating arbitrarily complex ecological dynamics. This project will build upon this simulator, aiming to develop a fast and efficient inference method that outperforms the current state of the art.
 
